@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    border:2px solid black;
+    margin-top: 200px;
+}
+.heading-text {
+    border:3px solid black;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.button-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+button{
+    padding: 6px;
+    border-radius: 0.5rem;
+    font-size: medium;
+    color:black;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+button:hover{
+    color: coral;
+}
